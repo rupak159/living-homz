@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Living Homz Interiors — Premium Interior Design & Furniture</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="luxspace.css">
+</head>
+
+<body>
+  <!-- Newsletter Banner -->
+  <div class="newsletter-banner">
+    <span>SUBSCRIBE TO OUR NEWSLETTER</span>
+    <button class="newsletter-arrow">→</button>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Living Homz</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#shop">Shop by Category</a>
+          <div class="dropdown-menu">
+            <a href="#living">Living</a>
+            <a href="#bedroom">Bedroom</a>
+            <a href="#dining">Dining & Kitchen</a>
+            <a href="#study">Study</a>
+          </div>
+        </li>
+        <li><a href="#inspiration">Product Inspirations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Customers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <button class="icon-btn search-btn">🔍</button>
+        <button class="icon-btn">🥷</button>
+        <button class="icon-btn">❤️</button>
+        <button class="icon-btn cart-btn">🛒 <span class="cart-count">0</span></button>
+      </div>
+
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH VIDEO BACKGROUND -->
+  <section class="hero" id="home">
+    <div class="hero-video-wrapper">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="https://res.cloudinary.com/dyyezmhtm/video/upload/v1769815413/12681248_2160_3840_60fps_x4nxwl.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+    
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 class="animate-fade-up">Designing Spaces<br>That Inspire</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">Where Vision Meets Precision</p>
+            <div class="hero-features animate-fade-up delay-2">
+              <div class="feature-pill">✓ On-Time Delivery</div>
+              <div class="feature-pill">✓ Premium Quality</div>
+              <div class="feature-pill">✓ Professional Execution</div>
+            </div>
+            <a href="#contact" class="btn-primary animate-fade-up delay-3">Get Consultation</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1>Transform Your Space</h1>
+            <p class="hero-subtitle">With Our Expert Design Services</p>
+            <a href="#services" class="btn-primary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="slider-btn prev-btn">‹</button>
+    <button class="slider-btn next-btn">›</button>
+
+    <div class="slider-dots"></div>
+  </section>
+
+  <!-- SALE COUNTDOWN BANNER -->
+  <section class="countdown-banner">
+<h3>SALE ENDS IN</h3>
+    <div class="countdown">
+      <div class="countdown-item">
+        <span class="countdown-value" id="days">02</span>
+        <span class="countdown-label">DAYS</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-item">
+        <span class="countdown-value" id="hours">12</span>
+        <span class="countdown-label">HRS</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-item">
+        <span class="countdown-value" id="minutes">06</span>
+        <span class="countdown-label">MINS</span>
+      </div>
+      <span class="countdown-separator">:</span>
+      <div class="countdown-item">
+        <span class="countdown-value" id="seconds">46</span>
+        <span class="countdown-label">SEC</span>
+      </div>
+    </div>
+    <div class="sale-subtitle">UP TO 70% OFF - ENDS ON 1ST FEB</div>
+  </section>
+
+  <!-- SHOP BY CATEGORY WITH REAL IMAGES -->
+  <section class="shop-category" id="shop">
+    <div class="container">
+      <h2 class="section-title">Shop by Category</h2>
+
+      <div class="category-grid">
+        <div class="category-item">
+          <div class="category-image new-arrivals">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=300&fit=crop" alt="New Arrivals">
+            <div class="category-badge">NEW</div>
+          </div>
+          <span>New Arrivals</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=300&h=300&fit=crop" alt="Sofas">
+          </div>
+          <span>Sofas</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=300&h=300&fit=crop" alt="Sofa Cum Beds">
+          </div>
+          <span>Sofa Cum Beds</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=300&h=300&fit=crop" alt="Recliners">
+          </div>
+          <span>Recliners</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=300&h=300&fit=crop" alt="Beds">
+          </div>
+          <span>Beds</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=300&h=300&fit=crop" alt="Wardrobes">
+          </div>
+          <span>Wardrobes</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=300&h=300&fit=crop" alt="Dining Table Sets">
+          </div>
+          <span>Dining Table Sets</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=300&h=300&fit=crop" alt="TV Units">
+          </div>
+          <span>TV Units</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1558211583-803a8ea3c0e5?w=300&h=300&fit=crop" alt="Coffee Tables">
+          </div>
+          <span>Coffee Tables</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=300&fit=crop" alt="Lounge Chairs">
+          </div>
+          <span>Lounge Chairs</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1594620302200-9a762244a156?w=300&h=300&fit=crop" alt="Bookshelves">
+          </div>
+          <span>Bookshelves</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=300&h=300&fit=crop" alt="Shoe Racks">
+          </div>
+          <span>Shoe Racks</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=300&h=300&fit=crop" alt="Study">
+          </div>
+          <span>Study</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=300&h=300&fit=crop" alt="Mattress">
+          </div>
+          <span>Mattress</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=300&h=300&fit=crop" alt="Lights">
+          </div>
+          <span>Lights</span>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="https://images.unsplash.com/photo-1578915629189-bd7fca6fd17c?w=300&h=300&fit=crop" alt="Bar Cabinets">
+          </div>
+          <span>Bar Cabinets</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEAL ZONE -->
+  <section class="deal-zone">
+    <div class="container">
+      <h2 class="section-title">Deal Zone</h2>
+
+      <div class="deal-grid">
+        <div class="deal-card featured">
+          <div class="deal-badge">ENDS ON 1ST FEB</div>
+          <div class="deal-content">
+            <h3>REPUBLIC DAY<br><span class="highlight">SALE</span></h3>
+            <p class="deal-discount">UP TO 70% OFF</p>
+            <div class="deal-flags">🇮🇳</div>
+          </div>
+        </div>
+
+        <div class="deal-card">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600" alt="Storage Bed">
+          <div class="deal-info">
+            <h4>Storage beds from</h4>
+            <p class="deal-price">₹9,999</p>
+          </div>
+          <button class="deal-arrow">→</button>
+        </div>
+
+        <div class="deal-card">
+          <img src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=600" alt="Dining Sets">
+          <div class="deal-info">
+            <h4>Dining sets from</h4>
+            <p class="deal-price">₹16,997</p>
+          </div>
+          <button class="deal-arrow">→</button>
+        </div>
+
+        <div class="deal-card">
+          <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600" alt="Shoe Racks">
+          <div class="deal-info">
+            <h4>Shoe racks from</h4>
+            <p class="deal-price">₹3,249</p>
+          </div>
+          <button class="deal-arrow">→</button>
+        </div>
+
+        <div class="deal-card">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600" alt="Lounge Chairs">
+          <div class="deal-info">
+            <h4>Lounge chairs from</h4>
+            <p class="deal-price">₹12,499</p>
+          </div>
+          <button class="deal-arrow">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT INSPIRATIONS WITH HOTSPOTS -->
+  <section class="product-inspiration" id="inspiration">
+    <div class="container">
+      <h2 class="section-title">Product Inspirations</h2>
+
+      <div class="inspiration-showcase">
+        <div class="inspiration-image">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200" alt="Living Room Setup">
+
+          <!-- Interactive Hotspots -->
+          <button class="hotspot" style="top: 25%; left: 15%;" data-product="Pendant Light">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+
+          <button class="hotspot" style="top: 45%; left: 30%;" data-product="Accent Chair">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+
+          <button class="hotspot" style="top: 55%; left: 55%;" data-product="Coffee Table">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+
+          <button class="hotspot" style="top: 50%; left: 75%;" data-product="Sofa Set">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+
+          <button class="hotspot" style="top: 70%; left: 45%;" data-product="Area Rug">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+
+          <button class="hotspot" style="top: 35%; left: 85%;" data-product="Decorative Vase">
+            <span class="hotspot-pulse"></span>
+            <span class="hotspot-dot"></span>
+          </button>
+        </div>
+
+        <div class="inspiration-nav">
+          <button class="inspiration-prev">‹</button>
+          <button class="inspiration-next">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDIAN DESIGNS BANNER -->
+  <section class="indian-designs">
+    <div class="indian-overlay">
+      <h2>AN ODE TO<br><span class="indian-highlight">INDIAN DESIGNS</span></h2>
+      <div class="indian-subtitle">
+        <span>CURATED</span>
+        <span class="spacer">•</span>
+        <span>CRAFT</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- KITCHEN SHOWCASE -->
+  <section class="kitchen-showcase">
+    <div class="container">
+      <div class="kitchen-grid">
+        <div class="kitchen-main">
+          <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800" alt="Modern Kitchen">
+        </div>
+        <div class="kitchen-content">
+          <h2>Your <span class="highlight-orange">kitchen</span> should be a place<br>of comfort, not concern</h2>
+          <p>Our ISI 304 Stainless Steel, backed by a 25-year warranty, keeps your kitchen units corrosion-free</p>
+
+          <div class="kitchen-examples">
+            <div class="kitchen-example">
+              <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=300" alt="Kitchen 1">
+            </div>
+            <div class="kitchen-example">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300" alt="Kitchen 2">
+            </div>
+            <div class="kitchen-example">
+              <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=300" alt="Kitchen 3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about fade-in" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Living Homz</h2>
+          <p>
+            We are a team of passionate interior designers and architects dedicated to transforming
+            spaces into extraordinary experiences. With over a decade of expertise, we blend functionality
+            with aesthetic excellence.
+          </p>
+          <p>
+            Our approach combines innovative design thinking, sustainable materials, and precise
+            execution to deliver interiors that exceed expectations. Client satisfaction isn't just
+            a goal—it's our foundation.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Design Awards</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800" alt="Interior Design">
+          <div class="about-accent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services fade-in" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>Comprehensive interior design solutions tailored to your vision</p>
+      </div>
+
+      <div class="service-cards">
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Residential Design</h3>
+          <p>Complete home interior solutions from concept to execution</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Commercial Interiors</h3>
+          <p>Professional office and retail space design</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>3D Visualization</h3>
+          <p>Realistic renders to visualize your dream space</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">💡</div>
+          <h3>Consultation</h3>
+          <p>Expert guidance for your design projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Our Portfolio</h2>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800" alt="Modern Living">
+          <div class="portfolio-overlay">
+            <h3>Modern Elegance</h3>
+            <p>Living Room • Mumbai</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=800" alt="Contemporary Kitchen">
+          <div class="portfolio-overlay">
+            <h3>Culinary Haven</h3>
+            <p>Kitchen Design • Delhi</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800" alt="Luxury Bedroom">
+          <div class="portfolio-overlay">
+            <h3>Tranquil Retreat</h3>
+            <p>Master Suite • Bangalore</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800" alt="Modern Office">
+          <div class="portfolio-overlay">
+            <h3>Workspace Evolution</h3>
+            <p>Commercial • Pune</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800" alt="Dining Area">
+          <div class="portfolio-overlay">
+            <h3>Gathering Space</h3>
+            <p>Dining Room • Chennai</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800" alt="Bathroom Design">
+          <div class="portfolio-overlay">
+            <h3>Spa Sanctuary</h3>
+            <p>Luxury Bath • Hyderabad</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER TESTIMONIALS -->
+  <section class="testimonials-modern" id="testimonials">
+    <div class="container">
+      <h2 class="testimonials-title">Meet our <span class="highlight-orange">happy</span> customers</h2>
+      <p class="testimonials-subtitle">Discover the inspiring stories behind their beautifully transformed homes</p>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <h4>Veena Vijayaram</h4>
+            <p class="testimonial-type">3 BHK</p>
+            <p class="testimonial-text">I was truly impressed by the top-notch quality of the components used in
+              designing my home.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <h4>Ramana Babu Kotha</h4>
+            <p class="testimonial-type">3 BHK</p>
+            <p class="testimonial-text">Our visit to the experience centre left us thoroughly
+              impressed. The designs were stunning, and the design team's guidance was top-notch. Our dream home was
+              ready within 45 days.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-image">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <h4>Pritam Biswas</h4>
+            <p class="testimonial-type">3 BHK</p>
+            <p class="testimonial-text">When it came to choosing interior designers, Living Homz
+              was an obvious choice since our past experience of buying furniture from them was positive. We will
+              gladly recommend them to our friends and family.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-center">
+        <h3>Visit our <span class="highlight-dark">experience centre</span></h3>
+        <button class="btn-primary">Find Nearest Store</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact fade-in" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h2>Let's Create Something Beautiful</h2>
+          <p>
+            Ready to transform your space? Get in touch with our team for a consultation.
+            We'd love to hear about your project and bring your vision to life.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Phone</strong><br>
+                +91 XXXXX XXXXX
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>Email</strong><br>
+                info@livinghomz.com
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Location</strong><br>
+                Surat, Gujarat, India
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Living Homz</h3>
+          <p>
+            Creating extraordinary interiors that inspire and elevate everyday living.
+            Your vision, our expertise.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">i</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Pinterest">p</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Residential Design</a></li>
+            <li><a href="#">Commercial Interiors</a></li>
+            <li><a href="#">3D Visualization</a></li>
+            <li><a href="#">Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul>
+            <li>Surat, Gujarat, India</li>
+            <li>+91 XXXXX XXXXX</li>
+            <li>info@livinghomz.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Living Homz Interiors. All rights reserved. | Designed with precision and passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hotspot Popup -->
+  <div class="hotspot-popup" id="hotspotPopup">
+    <button class="popup-close">×</button>
+    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400" alt="Product" id="popupImage">
+    <h3 class="popup-title" id="popupTitle">Product Name</h3>
+    <p class="popup-price" id="popupPrice">₹XX,XXX</p>
+    <button class="popup-cta btn-primary">Add to Cart</button>
+  </div>
+
+  <script src="luxspace.js"></script>
+</body>
+
+</html>
